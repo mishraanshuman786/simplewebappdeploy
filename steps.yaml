@@ -1,0 +1,35 @@
+-steps for deploying your application:
+(1) Make a simple application
+(2) Initialize it with git
+(3) Push your changes to the github
+(4) Then deploy your app from github to Server.(Vercel, Netlify, Hostinger, AWS).
+
+================================================================================
+(1) Make a simple application:
+- Make a folder for your project
+- Open this folder in the vscode using (code .) command.
+- Write code for making your application.
+
+(2) Intitalize with git:
+-git init: to intialize a empty git repository.
+-git status: check status of my project to check that any changes are there or not.
+-git add .: to push my changes to the staging area.
+-git commit -m "message": to commit my changes to the git.
+
+(3) Push your changes to the github:
+-login to the github account on github website
+-make a empty repositry on github
+
+-make a new branch on git:
+git checkout -m main
+
+-connect git with github by using the below command:
+git remote add origin "github repository url or link"
+
+-push the git repository on github:
+git push origin main
+
+(4) Deploy the app on vercel from the github:
+-go to vercel website and login
+-select the github repository to host on vercel
+-and then select the button to deploy the app.
